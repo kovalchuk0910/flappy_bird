@@ -1,0 +1,28 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(#009ACF, #2AE386);
+    background-repeat: no-repeat;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.scoreBlock {
+    color: white;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+#canvas {
+    width: 600px;
+    height: 350px;
+    background-image: url("images/background.png");
+}
